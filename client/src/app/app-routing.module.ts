@@ -1,6 +1,8 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AddgastosComponent } from './gastos/addgastos/addgastos.component';
+import { RecientesComponent } from './gastos/recientes/recientes.component';
+import { TodosComponent } from './gastos/todos/todos.component';
 import { GruposComponent } from './grupos/grupos.component';
 import { LoginComponent } from './login/login.component';
 import { PrincipalComponent } from './principal/principal.component';
@@ -16,6 +18,8 @@ const routes: Routes = [
   {path: 'signup', component: SignupComponent},
   {path: 'gastos/addgastos', component: AddgastosComponent},
   {path: 'grupos', component: GruposComponent},
+  {path: 'gastos/recientes', component: RecientesComponent},
+  {path: 'gastos/todos', component: TodosComponent},
   {path: '', pathMatch: 'full', redirectTo:'principal'}
 
 ];
