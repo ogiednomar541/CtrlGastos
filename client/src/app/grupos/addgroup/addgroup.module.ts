@@ -1,18 +1,18 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { LiquidarComponent } from './liquidar.component';
+import { AddgroupComponent } from './addgroup.component';
 
 
 
 @NgModule({
   declarations: [
-    LiquidarComponent
+    AddgroupComponent
   ],
   imports: [
     CommonModule
   ],
   exports: [
-    LiquidarComponent
+    AddgroupComponent
   ]
 })
-export class LiquidarModule { }
+export class AddgroupModule { }
