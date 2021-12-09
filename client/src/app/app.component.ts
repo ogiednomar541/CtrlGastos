@@ -23,6 +23,8 @@ export class AppComponent {
                this.showHead = false;
            } else if (event['url'] == '/signup') {
             this.showHead = false;
+           } else if (event['url'] == '/') {
+            this.showHead = false;
            } else {
                this.showHead = true;
             }
